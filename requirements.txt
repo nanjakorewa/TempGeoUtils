@@ -4,4 +4,3 @@ matplotlib
 seaborn
 japanize_matplotlib
 japanmap
-opencv-python

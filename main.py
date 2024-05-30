@@ -12,6 +12,7 @@ col1, col2 = st.columns(2)
 with col1:
     uploaded_files = st.file_uploader("CSVファイルがある場合はアップロードしてください", accept_multiple_files=False)
 
+    st.markdown("valueを編集してください")
     if uploaded_files:
         df = pd.read_csv(uploaded_files)
         edited_df1 = st.data_editor(df, num_rows="dynamic") 
