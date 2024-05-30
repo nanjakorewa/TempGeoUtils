@@ -1,0 +1,6 @@
+streamlit
+black
+matplotlib
+seaborn
+japanize_matplotlib
+japanmap
